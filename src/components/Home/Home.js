@@ -7,21 +7,51 @@ function Home() {
   const [players, setPlayers] = useState(playerData);
   const [category, setCategory] = useState("cricket");
 
-  console.log(players);
-  console.log(loading);
-  console.log(category);
+  const [search, setSearch] = useState("");
+
+  const matchedCategory = playerData.filter(
+    (data) => data.category === category
+  );
+
+  const searchedResult = matchedCategory.filter((player) =>
+    player.name.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+  );
+
+  console.log("matchedCategory", matchedCategory);
+
+  const getSpecificPlayers = (e) => {
+    setSearch(e.target.value);
+  };
+
+  const getPLayerDetails = matchedCategory.filter((player) =>
+    player.name.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+  );
+
+  console.log("getPLayer", getPLayerDetails);
   return (
     <>
       <Header></Header>
 
-      <div className="players">
-      {/* search field */}
-        <div className="search-box">
-          {/* <i class="fas fa-search"></i> */}
-          <input type="text" placeholder="Type Player Name" />
+      <div className="show-players">
+        <div className="player-box-left">
+          <div className="search-box">
+            <input
+              type="text"
+              placeholder="Type Player Name"
+              onChange={getSpecificPlayers}
+            />
+          </div>
+
+          <div className="player-list">
+              {
+                getPLayerDetails?.map(player => <li>{player.name}</li> )
+              }
+          </div>
+
+
         </div>
 
-
+        <div className="player-box-right"></div>
       </div>
     </>
   );

@@ -43,7 +43,7 @@ nav li i {
 
 .fa-running {
   opacity: 0;
-  animation: moveIn 5s infinite 2s;
+  /* animation: moveIn 5s infinite 2s; */
 }
 @keyframes moveIn {
   0% {
@@ -62,7 +62,7 @@ nav li i {
 .fa-baseball-ball,
 .fa-futbol,
 .fa-basketball-ball {
-  animation: rotate 1s infinite;
+  /* animation: rotate 1s infinite; */
 }
 
 @keyframes rotate {
@@ -77,16 +77,16 @@ nav li i {
   text-align: center;
 }
 .search-box input {
-  background: #2a6592;
-  color: #dadee0;
+  /* background: #2a6592; */
+  /* color: #dadee0; */
   outline: none;
   border: none;
   padding: 1rem 2rem;
   border-radius: 50px;
-  text-align: center;
+  border: 1px solid #2a6592;
 }
 
 .search-box ::placeholder {
-  color: #dadee0;
+  color: #2a6592;
   font-size: 1rem;
 }
