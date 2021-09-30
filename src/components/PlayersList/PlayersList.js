@@ -1,17 +1,27 @@
-import React from 'react'
+import React from "react";
+import "./PlayersList.css";
 
 function PlayersList(props) {
+  const { name, img, email, hirePrice, currentClub } = props.player;
+  return (
+    <div className="single-player">
+      <img src={img} alt="Player Name" />
+      <p>{name}</p>
+      <p>
+        Hiring Price: <strong> ${email}</strong>{" "}
+      </p>
+      <p>
+        Hiring Price: <strong> ${hirePrice}</strong>{" "}
+      </p>
+      <p>
+        Current Club: <strong> ${currentClub}</strong>{" "}
+      </p>
 
-    const {name, img, email, hirePrice, currentClub} = props.player;
-    return (
-        <div className="single-player">
-            <img src={img} alt="Player Name" />
-            <h1>{name}</h1>
-            <p>Hiring Price: <strong> ${email}</strong> </p>
-            <p>Hiring Price: <strong> ${hirePrice}</strong> </p>
-            <p>Current Club: <strong> ${currentClub}</strong> </p>
-        </div>
-    )
+      <button>
+      <i class="fas fa-money-check-alt fa-lg"></i>Hire
+      </button>
+    </div>
+  );
 }
 
-export default PlayersList
+export default PlayersList;
