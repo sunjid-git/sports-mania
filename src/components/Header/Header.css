@@ -43,7 +43,7 @@ nav li i {
 
 .fa-running {
   opacity: 0;
-  /* animation: moveIn 5s infinite 2s; */
+  animation: moveIn 5s infinite 2s;
 }
 @keyframes moveIn {
   0% {
@@ -62,7 +62,7 @@ nav li i {
 .fa-baseball-ball,
 .fa-futbol,
 .fa-basketball-ball {
-  /* animation: rotate 1s infinite; */
+  animation: rotate 1s infinite;
 }
 
 @keyframes rotate {
@@ -84,6 +84,7 @@ nav li i {
   padding: 1rem 2rem;
   border-radius: 50px;
   border: 1px solid #2a6592;
+  margin-bottom: 2rem;
 }
 
 .search-box ::placeholder {

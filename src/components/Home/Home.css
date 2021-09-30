@@ -1,0 +1,21 @@
+.show-all-players{
+    display: flex;
+    flex-direction: row;
+}
+.player-box-left{
+    width:70%;
+    background-color: rgb(131, 141, 150);
+    padding: 2rem;
+}
+.player-box-right{
+    width:30%;
+    padding: 2rem;
+    background-color: rgb(158, 132, 132);
+}
+
+.player-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    place-items: center;
+}
