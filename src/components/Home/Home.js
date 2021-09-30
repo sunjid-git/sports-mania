@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "../Header/Header";
 import playerData from "../data.json";
+import PlayersList from "../PlayersList/PlayersList";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -30,7 +31,7 @@ function Home() {
   console.log("getPLayer", getPLayerDetails);
   return (
     <>
-      <Header></Header>
+      <Header setCategory={setCategory}></Header>
 
       <div className="show-players">
         <div className="player-box-left">
@@ -44,7 +45,7 @@ function Home() {
 
           <div className="player-list">
               {
-                getPLayerDetails?.map(player => <li>{player.name}</li> )
+                getPLayerDetails?.map(player => <PlayersList player={player} key={player.id}></PlayersList> )
               }
           </div>
 
