@@ -1,0 +1,407 @@
+[
+    {
+        "id": 1,
+        "name": "Mehedy Hasan",
+        "img": "https://i.ibb.co/R4bD732/mehidy-hasan.webp",
+        "email": "minkpin0@bbb.org",
+        "hirePrice": 1000,
+        "currentClub": "Dhaka dynamites",
+        "category": "cricket"
+    },
+    {
+        "id": 2,
+        "name": "Mustafizur Rahman",
+        "img": "https://i.ibb.co/pdQ60df/mustafizur-rahman.webp",
+        "email": "ghaack1@google.it",
+        "hirePrice": 3000,
+        "currentClub": "Rangpur riders",
+        "category": "cricket"
+    },
+    {
+        "id": 3,
+        "name": "Virat Kohli",
+        "img": "https://i.ibb.co/NpnyBfP/virat-kohli.webp",
+        "email": "bcuddehay2@earthlink.net",
+        "hirePrice": 5000,
+        "currentClub": "RCB",
+        "category": "cricket"
+    },
+    {
+        "id": 4,
+        "name": "Rohit Sharma",
+        "img": "https://i.ibb.co/MfNMXNM/download.jpg",
+        "email": "cmaty3@time.com",
+        "hirePrice": 1200,
+        "currentClub": "Mumbai indians",
+        "category": "cricket"
+    },
+    {
+        "id": 5,
+        "name": "MS Dhoni",
+        "img": "https://i.ibb.co/MRZrGjv/ms-dhoni.webp",
+        "email": "gayrs4@feedburner.com",
+        "hirePrice": 2012,
+        "currentClub": "Chennai Super Kings",
+        "category": "cricket"
+    },
+    {
+        "id": 6,
+        "name": "Joe Root",
+        "img": "https://i.ibb.co/djCxk7W/joe-root.webp",
+        "email": "mmacrow5@nytimes.com",
+        "hirePrice": 1995,
+        "currentClub": "Rajsthan Royals",
+        "category": "cricket"
+    },
+    {
+        "id": 7,
+        "name": "Rishab Pant",
+        "img": "https://i.ibb.co/w07mZZn/rishabh-pant.webp",
+        "email": "rrimes6@mit.edu",
+        "hirePrice": 1992,
+        "currentClub": "Delhi daredevils",
+        "category": "cricket"
+    },
+    {
+        "id": 8,
+        "name": "Jasprit Bumrah",
+        "img": "https://i.ibb.co/CtCZjFF/jasprit-bumrah.webp",
+        "email": "lselliman7@de.vu",
+        "hirePrice": 1985,
+        "currentClub": "Mumbai indians",
+        "category": "cricket"
+    },
+    {
+        "id": 9,
+        "name": "Dwayne Bravo",
+        "img": "https://i.ibb.co/NmknZBr/dwayne-bravo.webp",
+        "email": "soiller8@cpanel.net",
+        "hirePrice": 2008,
+        "currentClub": "Chennai Super Kings",
+        "category": "cricket"
+    },
+    {
+        "id": 10,
+        "name": "Mohammad Shami",
+        "img": "https://i.ibb.co/gtZWkhF/mohammed-shami.webp",
+        "email": "sberriball9@ask.com",
+        "hirePrice": 1995,
+        "currentClub": "Kings Eleven Punjab",
+        "category": "cricket"
+    },
+    {
+        "id": 11,
+        "name": "Kane Williamson",
+        "img": "https://i.ibb.co/LCx8VBL/kane-williamson.webp",
+        "email": "mskelliona@globo.com",
+        "hirePrice": 2003,
+        "currentClub": "Rajsthan Royals",
+        "category": "cricket"
+    },
+    {
+        "id": 12,
+        "name": "Trent Boult",
+        "img": "https://i.ibb.co/BqVR2vb/trent-boult.webp",
+        "email": "rclyburnb@jimdo.com",
+        "hirePrice": 1986,
+        "currentClub": "Delhi Daredevils",
+        "category": "cricket"
+    },
+    {
+        "id": 13,
+        "name": "Chris Gayle",
+        "img": "https://i.ibb.co/NxVDfgQ/chris-gayle.webp",
+        "email": "ktownshendc@de.vu",
+        "hirePrice": 2003,
+        "currentClub": "RCB",
+        "category": "cricket"
+    },
+    {
+        "id": 14,
+        "name": "Ab De Villiers",
+        "img": "https://i.ibb.co/WFLNf0t/ab-de-villiers.webp",
+        "email": "rmcmeekind@wp.com",
+        "hirePrice": 2002,
+        "currentClub": "RCB",
+        "category": "cricket"
+    },
+    {
+        "id": 15,
+        "name": "Moeen Ali",
+        "img": "https://i.ibb.co/1b1ZwSt/moeen-ali.webp",
+        "email": "bmullingere@princeton.edu",
+        "hirePrice": 2002,
+        "currentClub": "Delhi Daredevils",
+        "category": "cricket"
+    },
+    {
+        "id": 16,
+        "name": "Lionel Messi",
+        "img": "https://i.ibb.co/wgMWsvy/images.jpg",
+        "email": "aanthonf@fema.gov",
+        "hirePrice": 1991,
+        "currentClub": "FCB Barcelona",
+        "category": "football"
+    },
+    {
+        "id": 17,
+        "name": "Cristiano Ronaldo",
+        "img": "https://i.ibb.co/cggq91t/cf9d675c-b1fe-11ea-953d-a7ecc5cbd229-image-hires-144326.webp",
+        "email": "pknowlerg@hibu.com",
+        "hirePrice": 2012,
+        "currentClub": "Juventas",
+        "category": "football"
+    },
+    {
+        "id": 18,
+        "name": "Neymar",
+        "img": "https://i.ibb.co/BNnv16p/images-1.jpg",
+        "email": "ncuncarrh@ask.com",
+        "hirePrice": 1989,
+        "currentClub": "PSG",
+        "category": "football"
+    },
+    {
+        "id": 19,
+        "name": "Angel de Maria",
+        "img": "https://i.ibb.co/zR0CFrB/images-3.jpg",
+        "email": "akibardi@wsj.com",
+        "hirePrice": 1995,
+        "currentClub": "Juventas",
+        "category": "football"
+    },
+    {
+        "id": 20,
+        "name": "Kylian Mbappé",
+        "img": "https://i.ibb.co/7gDtjBS/250043.jpg",
+        "email": "zpenneyj@imgur.com",
+        "hirePrice": 1989,
+        "currentClub": "PSG",
+        "category": "football"
+    },
+    {
+        "id": 21,
+        "name": "Mohammad Salah",
+        "img": "https://i.ibb.co/vwSnkhn/MSalah2020.jpg",
+        "email": "broukek@jugem.jp",
+        "hirePrice": 2010,
+        "currentClub": "Liverpool",
+        "category": "football"
+    },
+    {
+        "id": 22,
+        "name": "Luis Suárez",
+        "img": "https://i.ibb.co/2shpQ8T/imago35325120h.jpg",
+        "email": "acantol@accuweather.com",
+        "hirePrice": 1996,
+        "currentClub": "FCB",
+        "category": "football"
+    },
+    {
+        "id": 23,
+        "name": "Antoine Griezmann",
+        "img": "https://i.ibb.co/rFKXKmj/3157.jpg",
+        "email": "ecayfordm@cloudflare.com",
+        "hirePrice": 2009,
+        "currentClub": "FCB",
+        "category": "football"
+    },
+    {
+        "id": 24,
+        "name": "Luka Modrić",
+        "img": "https://i.ibb.co/Tkxp9sn/MODRIC-380-X501-Thumb.jpg",
+        "email": "mpavern@360.cn",
+        "hirePrice": 2005,
+        "currentClub": "Real Madrid",
+        "category": "football"
+    },
+    {
+        "id": 25,
+        "name": "Sergio Agüero",
+        "img": "https://i.ibb.co/8sSzGXm/p37572.png",
+        "email": "fslaneo@facebook.com",
+        "hirePrice": 1993,
+        "currentClub": "Manchester City",
+        "category": "football"
+    },
+    {
+        "id": 26,
+        "name": "Paul Pogba",
+        "img": "https://i.ibb.co/XyHmZLc/download-1.jpg",
+        "email": "ksturzakerp@networksolutions.com",
+        "hirePrice": 2001,
+        "currentClub": "Manchester United",
+        "category": "football"
+    },
+    {
+        "id": 27,
+        "name": "Gareth Bale",
+        "img": "https://i.ibb.co/GVZWZ5p/p36903.png",
+        "email": "cvernayq@ow.ly",
+        "hirePrice": 1993,
+        "currentClub": "Tottenham Hotspur",
+        "category": "football"
+    },
+    {
+        "id": 28,
+        "name": "Karim Benzema",
+        "img": "https://i.ibb.co/ydPD50h/download-2.jpg",
+        "email": "edoerrr@indiegogo.com",
+        "hirePrice": 1992,
+        "currentClub": "Real Madrid",
+        "category": "football"
+    },
+    {
+        "id": 29,
+        "name": "Jan Oblak",
+        "img": "https://i.ibb.co/wz7VgSW/174468-1.jpg",
+        "email": "jlytles@prweb.com",
+        "hirePrice": 1995,
+        "currentClub": " Atlético Madrid",
+        "category": "football"
+    },
+    {
+        "id": 30,
+        "name": "Manuel Peter Neuer",
+        "img": "https://i.ibb.co/sHmhQ6S/qk-UY1-VOr-400x400.jpg",
+        "email": "kchattot@arizona.edu",
+        "hirePrice": 2012,
+        "currentClub": "Bayern Munich",
+        "category": "football"
+    },
+    {
+        "id": 31,
+        "name": "LeBron James",
+        "img": "https://i.ibb.co/FwkkFCC/LAKE-BUENA-VISTA-FLORIDA-AUGUST-24-Le-Bron-James-23-of-the-Los-Angeles-Lakers-reacts-after-hitting-a.jpg",
+        "email": "smccorrieu@howstuffworks.com",
+        "hirePrice": 1988,
+        "currentClub": "Los Angeles Lakers",
+        "category": "basketball"
+    },
+    {
+        "id": 32,
+        "name": "Kevin Durant",
+        "img": "https://i.ibb.co/9WwJL0W/201142.png",
+        "email": "kblodgv@about.me",
+        "hirePrice": 1992,
+        "currentClub": "Golden State Warriors",
+        "category": "basketball"
+    },
+    {
+        "id": 33,
+        "name": "Anthony Davis",
+        "img": "https://i.ibb.co/dmbhmq7/203076.png",
+        "email": "bcafferyw@over-blog.com",
+        "hirePrice": 2012,
+        "currentClub": "New Orleans Pelicans",
+        "category": "basketball"
+    },
+    {
+        "id": 34,
+        "name": "James Harden",
+        "img": "https://i.ibb.co/FbrqL4x/hi-res-a1227c3302a24778e299f839f1c6fad1-crop-north.webp",
+        "email": "ilorencx@ft.com",
+        "hirePrice": 2004,
+        "currentClub": "Houston Rockets",
+        "category": "basketball"
+    },
+    {
+        "id": 35,
+        "name": "Stephen Curry",
+        "img": "https://i.ibb.co/xLQJ7pn/i.png",
+        "email": "wpirriy@51.la",
+        "hirePrice": 1996,
+        "currentClub": "Golden State Warriors",
+        "category": "basketball"
+    },
+    {
+        "id": 36,
+        "name": "Giannis Antetokounmpo",
+        "img": "https://i.ibb.co/m5QmbZL/i-1.png",
+        "email": "cbrackenridgez@fotki.com",
+        "hirePrice": 1996,
+        "currentClub": "Milwaukee Bucks",
+        "category": "basketball"
+    },
+    {
+        "id": 37,
+        "name": "Kawhi Leonard",
+        "img": "https://i.ibb.co/HBVxPTj/i-2.png",
+        "email": "pnutter10@google.fr",
+        "hirePrice": 2011,
+        "currentClub": "Los Angeles Clippers",
+        "category": "basketball"
+    },
+    {
+        "id": 38,
+        "name": "Damian Lillard",
+        "img": "https://i.ibb.co/z2SZWpx/203081.png",
+        "email": "mmullen11@dropbox.com",
+        "hirePrice": 1997,
+        "currentClub": "Portland Trail Blazers",
+        "category": "basketball"
+    },
+    {
+        "id": 39,
+        "name": "Luka Doncic",
+        "img": "https://i.ibb.co/s5TkDs3/1629029.png",
+        "email": "eaked12@dailymail.co.uk",
+        "hirePrice": 2000,
+        "currentClub": "Dallas Mavericks",
+        "category": "basketball"
+    },
+    {
+        "id": 40,
+        "name": "Nikola Jokic",
+        "img": "https://i.ibb.co/p4DD2S6/download-4.jpg",
+        "email": "amckennan13@foxnews.com",
+        "hirePrice": 1992,
+        "currentClub": "Denver Nuggets",
+        "category": "basketball"
+    },
+    {
+        "id": 41,
+        "name": "Chris Paul",
+        "img": "https://i.ibb.co/gwc3x0Y/3930.png",
+        "email": "vjessup14@illinois.edu",
+        "hirePrice": 2011,
+        "currentClub": "Phoenix Suns",
+        "category": "basketball"
+    },
+    {
+        "id": 42,
+        "name": "Joel Embiid",
+        "img": "https://i.ibb.co/z7rG6ft/i-3.png",
+        "email": "ldaouze15@bigcartel.com",
+        "hirePrice": 2009,
+        "currentClub": "Philadelphia 76ers",
+        "category": "basketball"
+    },
+    {
+        "id": 43,
+        "name": "Payton",
+        "img": "https://robohash.org/hiceteius.jpg?size=50x50&set=set1",
+        "email": "prevely16@upenn.edu",
+        "hirePrice": 1992,
+        "currentClub": "Owl, madagascar hawk",
+        "category": "Pine squirrel"
+    },
+    {
+        "id": 44,
+        "name": "Nelie",
+        "img": "https://robohash.org/odiosednon.bmp?size=50x50&set=set1",
+        "email": "nbonwell17@seesaa.net",
+        "hirePrice": 1967,
+        "currentClub": "Common melba finch",
+        "category": "Squirrel, golden-mantled ground"
+    },
+    {
+        "id": 45,
+        "name": "Eugenius",
+        "img": "https://robohash.org/reprehenderiteosaut.bmp?size=50x50&set=set1",
+        "email": "ehiskey18@privacy.gov.au",
+        "hirePrice": 1992,
+        "currentClub": "Kiskadee, great",
+        "category": "Tayra"
+    }
+]
