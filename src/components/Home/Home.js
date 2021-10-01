@@ -41,8 +41,16 @@ function Home() {
 
   const addPlayer = (add) => {
     const addedPlayer = [...listedPlayer, add];
-    setListedPlayer(addedPlayer);
+    const selectedPlayers = addedPlayer.reduce((unique, player)=>{
+        if(unique.includes(player)){
+            return unique;
+        }else{
+            return [...unique, player];
+        }
+    },[])
+    setListedPlayer(selectedPlayers);
     // console.log('addedPlayer', addedPlayer);
+    // console.log('selectedPlayers', selectedPlayers);
   };
 
   const removePlayer = (id) => {

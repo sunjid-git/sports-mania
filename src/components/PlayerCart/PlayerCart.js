@@ -17,14 +17,14 @@ function PlayerCart(props) {
       <h1>Total Players : {listedPlayer.length}</h1>
       <h3>Total Cost : ${totalCost}</h3>
       {listedPlayer.map((player) => (
-        <li>
-          key={player.id}
+        <div>
+          
           <span> {player.name} </span>
           <span>${player.hirePrice}</span>
           <span>
             <button onClick={()=>props.removePlayer(player.id)}>Remove</button>
           </span>
-        </li>
+        </div>
       ))}
     </div>
   );
