@@ -28,6 +28,15 @@
     padding: .6rem 1rem;
     border-radius: 50px;
     /* margin-top: 10px; */
+    transition: all .5s ease-in-out;
+}
+
+.sports-button:hover{
+    background: #e7e9eb;
+    color: #2a6592;
+    border: 1px solid #2a6592;
+    cursor: pointer;
+
 }
 
 
