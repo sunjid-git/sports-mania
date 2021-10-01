@@ -14,13 +14,11 @@ function Home() {
   const [category, setCategory] = useState("cricket");
   const [listedPlayer, setListedPlayer] = useState([]);
 
-  useEffect(()=>{
-    setPlayers(playerData)
-  },[]);
+  useEffect(() => {
+    setPlayers(playerData);
+  }, []);
 
-  const matchedCategory = playerData.filter(
-    (data) => data.category === category
-  );
+  const matchedCategory = players.filter((data) => data.category === category);
   //   console.log(matchedCategory);
 
   const searchedResult = matchedCategory.filter((player) =>
@@ -34,29 +32,29 @@ function Home() {
     // console.log(e.target.value);
   };
 
-  const getPLayerDetails = matchedCategory.filter((player) =>
+  const getPLayerDetails = searchedResult.filter((player) =>
     player.name.toLocaleLowerCase().includes(search.toLocaleLowerCase())
   );
   //   console.log("getPLayer", getPLayerDetails);
 
   const addPlayer = (add) => {
     const addedPlayer = [...listedPlayer, add];
-    const selectedPlayers = addedPlayer.reduce((unique, player)=>{
-        if(unique.includes(player)){
-            return unique;
-        }else{
-            return [...unique, player];
-        }
-    },[])
+    const selectedPlayers = addedPlayer.reduce((unique, player) => {
+      if (unique.includes(player)) {
+        return unique;
+      } else {
+        return [...unique, player];
+      }
+    }, []);
     setListedPlayer(selectedPlayers);
     // console.log('addedPlayer', addedPlayer);
     // console.log('selectedPlayers', selectedPlayers);
   };
 
   const removePlayer = (id) => {
-      const removedPlayer = listedPlayer.filter(player => player.id !== id);
-      setListedPlayer(removedPlayer)
-    console.log('removed Player', removedPlayer);
+    const removedPlayer = listedPlayer.filter((player) => player.id !== id);
+    setListedPlayer(removedPlayer);
+    console.log("removed Player", removedPlayer);
     // console.log("removed Player");
   };
 
@@ -87,7 +85,6 @@ function Home() {
 
         <div className="player-box-right">
           <PlayerCart
-          
             listedPlayer={listedPlayer}
             removePlayer={removePlayer}
           ></PlayerCart>

@@ -15,12 +15,12 @@ function PlayerCart(props) {
   return (
     <div className="player-cart">
       <h1>Total Players : {listedPlayer.length}</h1>
-      <h3>Total Cost : ${totalCost}</h3>
+      <h3>Total Cost : $ {totalCost}</h3>
       {listedPlayer.map((player) => (
         <div>
           
           <span> {player.name} </span>
-          <span>${player.hirePrice}</span>
+          <span>$ {player.hirePrice}</span>
           <span>
             <button onClick={()=>props.removePlayer(player.id)}>Remove</button>
           </span>

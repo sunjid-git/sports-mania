@@ -4,13 +4,13 @@
 }
 .player-box-left{
     width:70%;
-    /* background-color: rgb(131, 141, 150); */
+    background-color: rgb(234, 236, 238);
     padding: 2rem;
 }
 .player-box-right{
     width:30%;
     padding: 2rem;
-    background-color: rgb(158, 132, 132);
+    background-color: rgb(230, 226, 226);
 }
 
 .player-list{
