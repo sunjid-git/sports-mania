@@ -1,4 +1,33 @@
+.single-player{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    box-shadow: 6px 5px 5px 0px rgba(212, 199, 199, 0.81);
+    padding: 0 5px 15px 0px;
+}
+
 .single-player img{
     height: 200px;
     height: 150px;
+}
+
+.single-player button{
+    font-size: 1rem;
+    background: #2a6592;
+    outline: none;
+    border: none;
+    color: #e7e9eb;
+    padding: .6rem 1rem;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+
+.single-player i{
+    margin: 0 1rem;
+}
+
+.single-player p{
+    margin: 5px 0;
 }

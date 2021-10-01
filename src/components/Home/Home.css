@@ -4,7 +4,7 @@
 }
 .player-box-left{
     width:70%;
-    background-color: rgb(131, 141, 150);
+    /* background-color: rgb(131, 141, 150); */
     padding: 2rem;
 }
 .player-box-right{
@@ -18,4 +18,5 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     place-items: center;
+
 }
