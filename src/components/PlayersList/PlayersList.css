@@ -7,10 +7,13 @@
     padding: 0 5px 15px 0px;
     border-radius: 15px;
     transition: all .5s ease-in-out;
+    background-color: rgb(220, 225, 226);
+    width: 90%;
 }
 
 .single-player:hover{
-    box-shadow: 5px 8px 11px 0px rgba(212, 199, 199, 0.81);
+    background-color: rgb(246, 248, 248);
+    box-shadow: 5px 8px 11px 0px rgba(236, 239, 240, 0.81);
 
 }
 
