@@ -9,15 +9,15 @@
 }
 .player-box-right{
     width:30%;
-    padding: 2rem;
+    padding: 0 1rem;
     background-color: rgb(230, 226, 226);
 }
 
 .player-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
     place-items: center;
-    /* background-color: black; */
+
 
 }

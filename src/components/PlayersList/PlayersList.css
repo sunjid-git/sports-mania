@@ -19,7 +19,7 @@
     height: 150px;
 }
 
-.single-player button{
+.sports-button{
     font-size: 1rem;
     background: #2a6592;
     outline: none;
@@ -27,7 +27,7 @@
     color: #e7e9eb;
     padding: .6rem 1rem;
     border-radius: 50px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 

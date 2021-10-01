@@ -17,13 +17,17 @@ function PlayerCart(props) {
       <h1>Total Players : {listedPlayer.length}</h1>
       <h3>Total Cost : $ {totalCost}</h3>
       {listedPlayer.map((player) => (
-        <div>
-          
-          <span> {player.name} </span>
-          <span>$ {player.hirePrice}</span>
-          <span>
-            <button onClick={()=>props.removePlayer(player.id)}>Remove</button>
-          </span>
+        <div className="add-remove-player-div-outer">
+        <div className="add-remove-player-div-inner">
+          <div> {player.name} </div>
+          <div>$ {player.hirePrice}</div>
+          <div>
+            <button onClick={() => props.removePlayer(player.id)} className="sports-button">
+             
+              Remove
+            </button>
+          </div>
+        </div>
         </div>
       ))}
     </div>

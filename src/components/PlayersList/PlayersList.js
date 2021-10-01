@@ -17,7 +17,7 @@ function PlayersList(props) {
         Club: <strong> ${currentClub}</strong>{" "}
       </p>
 
-      <button onClick={()=> props.addPlayer(props.player)}>
+      <button onClick={()=> props.addPlayer(props.player)} className="sports-button">
       <i className="fas fa-user-plus fa-lg"></i>Hire
       </button>
     </div>
