@@ -1,38 +1,56 @@
-import React, { useState } from "react";
-import './Home.css';
+import React, { useEffect, useState } from "react";
+import "./Home.css";
 
 import Header from "../Header/Header";
 import playerData from "../data.json";
 import PlayersList from "../PlayersList/PlayersList";
+import PlayerCart from "../PlayerCart/PlayerCart";
 
 function Home() {
-
-  const [loading, setLoading] = useState(true);
-  const [players, setPlayers] = useState(playerData);
-  const [category, setCategory] = useState("cricket");
+  //   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
+  const [players, setPlayers] = useState([]);
+
+  const [category, setCategory] = useState("cricket");
+  const [listedPlayer, setListedPlayer] = useState([]);
+
+  useEffect(()=>{
+    setPlayers(playerData)
+  },[]);
 
   const matchedCategory = playerData.filter(
     (data) => data.category === category
   );
-//   console.log(matchedCategory);
+  //   console.log(matchedCategory);
 
   const searchedResult = matchedCategory.filter((player) =>
     player.name.toLocaleLowerCase().includes(search.toLocaleLowerCase())
   );
 
-//   console.log("matchedCategory", matchedCategory);
+  //   console.log("matchedCategory", matchedCategory);
 
   const getSpecificPlayers = (e) => {
     setSearch(e.target.value);
     // console.log(e.target.value);
   };
 
-
   const getPLayerDetails = matchedCategory.filter((player) =>
     player.name.toLocaleLowerCase().includes(search.toLocaleLowerCase())
   );
-//   console.log("getPLayer", getPLayerDetails);
+  //   console.log("getPLayer", getPLayerDetails);
+
+  const addPlayer = (add) => {
+    const addedPlayer = [...listedPlayer, add];
+    setListedPlayer(addedPlayer);
+    // console.log('addedPlayer', addedPlayer);
+  };
+
+  const removePlayer = (id) => {
+      const removedPlayer = listedPlayer.filter(player => player.id !== id);
+      setListedPlayer(removedPlayer)
+    console.log('removed Player', removedPlayer);
+    // console.log("removed Player");
+  };
 
   return (
     <>
@@ -49,15 +67,23 @@ function Home() {
           </div>
 
           <div className="player-list">
-              {
-                getPLayerDetails?.map(player => <PlayersList player={player} key={player.id}></PlayersList> )
-              }
+            {getPLayerDetails?.map((player) => (
+              <PlayersList
+                key={player.id}
+                player={player}
+                addPlayer={addPlayer}
+              ></PlayersList>
+            ))}
           </div>
-
-
         </div>
 
-        <div className="player-box-right">mafi</div>
+        <div className="player-box-right">
+          <PlayerCart
+          
+            listedPlayer={listedPlayer}
+            removePlayer={removePlayer}
+          ></PlayerCart>
+        </div>
       </div>
     </>
   );

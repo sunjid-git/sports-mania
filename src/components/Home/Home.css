@@ -16,7 +16,8 @@
 .player-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
     place-items: center;
+    /* background-color: black; */
 
 }

@@ -13,13 +13,13 @@ function Header(props) {
 
       <nav>
         <li>
-          <a href="#" onClick={()=> setCategory('cricket')}><i className="fas fa-baseball-ball fa-lg"></i>Cricket</a>
+          <a href="#nav" onClick={()=> setCategory('cricket')}><i className="fas fa-baseball-ball fa-lg"></i>Cricket</a>
         </li>
         <li>
-          <a href="#" onClick={()=> setCategory('football')}><i className="fas fa-futbol fa-lg"></i>Football</a>
+          <a href="#nav" onClick={()=> setCategory('football')}><i className="fas fa-futbol fa-lg"></i>Football</a>
         </li>
         <li>
-          <a href="#" onClick={()=> setCategory('basketball')}><i className="fas fa-basketball-ball fa-lg"></i>Basketball</a>
+          <a href="#nav" onClick={()=> setCategory('basketball')}><i className="fas fa-basketball-ball fa-lg"></i>Basketball</a>
         </li>
       </nav>
     </>
